@@ -1,0 +1,33 @@
+The system is: Linux - 2.6.17-co-0.8.0 - Pentium III (Coppermine)
+Determining if the C compiler is GNU succeeded with the following output:
+# 1 "/usr/share/cmake/Modules/CMakeTestGNU.c"
+# 1 "<built-in>"
+# 1 "<command line>"
+# 1 "/usr/share/cmake/Modules/CMakeTestGNU.c"
+
+void THIS_IS_GNU();
+
+Determining if the C compiler works passed with the following output:
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.o
+/usr/lib/ccache/bin/gcc   -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.o   -c /home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -P CMakeFiles/cmTryCompileExec.dir/cmake_clean_target.cmake
+/usr/lib/ccache/bin/gcc        -fPIC "CMakeFiles/cmTryCompileExec.dir/testCCompiler.o"   -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of void* passed with the following output:
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+gmake[1]: Entering directory `/home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckTypeSize.o
+/usr/lib/ccache/bin/gcc   -o CMakeFiles/cmTryCompileExec.dir/CheckTypeSize.o   -c /home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp/CheckTypeSize.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -P CMakeFiles/cmTryCompileExec.dir/cmake_clean_target.cmake
+/usr/lib/ccache/bin/gcc        -fPIC "CMakeFiles/cmTryCompileExec.dir/CheckTypeSize.o"   -o cmTryCompileExec -rdynamic 
+gmake[1]: Leaving directory `/home/xuefer/src/gaim-ipmsg/build/CMakeFiles/CMakeTmp'
+
+

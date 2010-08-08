@@ -1,0 +1,1 @@
+/usr/lib/ccache/bin/gcc  -fPIC   -I/usr/local/include/gaim -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -Wall  -shared -Wl,-soname,libipmsg.so -o libipmsg.so "CMakeFiles/ipmsg.dir/ipmsg.o" 

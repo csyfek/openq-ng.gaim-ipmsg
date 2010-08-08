@@ -1,0 +1,2 @@
+#!/bin/sh
+make && ./install && DISPLAY=:1 LANG=zh_CN.UTF-8 gaim
